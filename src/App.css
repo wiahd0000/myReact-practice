@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+
+.about{
+  width: 100%;
+text-align: center;
+margin-top: 2rem;
+
+}
+
+.about button{
+  margin-top: 1rem;
+  width: 9rem;
+  height: 3rem;
+  border: none;
+  box-shadow: 2px 2px 20px rgb(63, 52, 52);
+  border-radius: 0.4rem;
+  background-color: gold;
+}
+
+.about p{
+  font-size: 2rem;
+  margin-top: 4rem;
+}
