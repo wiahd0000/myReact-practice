@@ -1,5 +1,9 @@
 import React from "react";
 import About from "./components/About";
+import Constant from "./components/Constant";
+import Count from "./components/count";
+import Test from "./components/test";
+import Practice from "./components/practice";
 import "./App.css"
 
 function App({name, age, location, contact}){
@@ -12,6 +16,16 @@ function App({name, age, location, contact}){
     </div>
 
    <About />
+
+   <Constant />
+
+   <Count />
+
+  
+<Test/>
+
+<Practice/>
+
    </>
   )
 }
