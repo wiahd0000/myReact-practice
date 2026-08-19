@@ -1,19 +1,20 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 
-function Test(){
-  
-  const[add, countAdd] = useState(0)
+
+function Test(props){
+  const [adds, setAdds] = useState(0)
   return(
+   <>
     <div>
-      <label >Welcome</label> <br /> <br />
-      <label>{add}</label> <br /> <br />
-      <button onClick={()=>countAdd(add + 1)}>+1</button> <br /> <br />
-      <button onClick={()=>countAdd(add - 1)}>-1</button> <br /> <br />
-      <h5>this is my first react project</h5>
+      <h1>{adds}</h1>
+      <button onClick={()=>setAdds(adds + 1)} >Just-Click</button>
     </div>
+
+
+
+  <img src={props.image} alt="pics" />
+   </>
   )
 }
-
-
 
 export default Test;

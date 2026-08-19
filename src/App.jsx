@@ -3,8 +3,12 @@ import About from "./components/About";
 import Constant from "./components/Constant";
 import Count from "./components/count";
 import Test from "./components/test";
-import Practice from "./components/practice";
+import Forms from "./components/Forms";
+
+import img1 from "./images/pc-1.jpg"
+
 import "./App.css"
+
 
 function App({name, age, location, contact}){
   return(
@@ -14,17 +18,16 @@ function App({name, age, location, contact}){
 <h2>My name is: {name="Mr. Wiah"} I'm {age="Two"} year of age and my location is {location="South Afria"} my contact is {contact="0555340996"}</h2>
 
     </div>
+    <Forms />
 
-   <About />
+   <About  image={img1}/>
 
    <Constant />
 
    <Count />
+   <Test image = {img1}/>
 
-  
-<Test/>
 
-<Practice/>
 
    </>
   )
